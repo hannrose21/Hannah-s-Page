@@ -1,0 +1,78 @@
+h1 {
+ font-family: serif;
+ color: lightskyblue;
+ text-align: center;
+ background: black;
+}
+
+p{
+  color: aliceblue;
+  text-align: center;
+}
+
+p{
+  font-size: 19px;
+  font-weight: bold;
+}
+
+h2{
+  text-align: center;
+  color: gold;
+  background: black;
+}
+
+
+h3{
+  color: lavender;
+}
+#p1 {
+  color: aliceblue;
+}
+
+body {
+  background-image: url("starrynight.jpg");
+}
+#changeMe{
+  height:223px;
+  width: 223px;
+}
+
+#cd{
+  height: 300px;
+  width: 300px;
+}
+
+.dropbtn {
+  background-color:black;
+  color: white;
+  padding: 19px;
+  font-size: 19px;
+  border: white;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color:black;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #ddd}
+
+.show {display:block;}
